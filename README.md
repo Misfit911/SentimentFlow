@@ -30,7 +30,7 @@ Accurate sentiment classification provides actionable insights:
 
 **Main Objective:**
 Develop an NLP multiclass classification model with:
-- Recall score ≥ 85%
+- Recall score ≥ 80%
 - Accuracy ≥ 80%
 - Three sentiment classes: Positive, Negative, and Neutral.
 
@@ -48,24 +48,26 @@ Develop an NLP multiclass classification model with:
 
 ***2. Distribution of the `emotion` feature***
 
-    
-![png](images/emotion_distribution.png)
+<p align="center">
+  <img src="images/emotion_distribution.png" alt="[YOUR_IMAGE_ALT]">
+</p>    
 
-It is evident that class imbalance exists in the data.
+
+> It is evident that class imbalance exists in the data.
 
 
-***Frequency Distribution of words used in tweets***
+***3. Frequency Distribution of words used in tweets***
     
 ![png](images/freq_dist_all_words.png)
     
-***Top 10 Bigrams***
+***4. Top 10 Bigrams***
 
 
     
 ![png](images/bigram.png)
     
 
-***Word Cloud Visual***
+***5. Word Cloud Visual***
 
 Shows the most frequent words used in tweets; those with the highest frequency are larger in size.
 
@@ -245,26 +247,26 @@ We evaluated the performance of the models based on the key metrics; accuracy an
 
 Based on the findings, here are some recommendations for future work and practical application:
 
-**Monitoring Negative Sentiments:** 
+**i.) Monitoring Negative Sentiments:** 
 
 Implement real-time monitoring and alert systems to flag negative sentiments as they arise. This allows for prompt intervention and resolution of customer issues.
 
-**Scalability:** 
+**ii.) Scalability:** 
 
 Assess the scalability of the models for handling large-scale data in a production environment. Optimize the models for performance and efficiency to ensure they can process a high volume of tweets quickly and accurately.
 
 
-**Real-Time Processing:** 
+**iii.) Real-Time Processing:** 
 
 Explore real-time processing capabilities to provide up-to-date sentiment analysis, which is crucial for timely decision-making and responding to emerging trends.
 
 
-**Continuous Model Monitoring:**
+**iv.) Continuous Model Monitoring:**
 
 Implement continuous monitoring of the deployed models to detect any performance degradation over time. Retrain the models if necessary with new data to maintain accuracy and relevance.
 
 
-**Integration with Social Media Platforms:**
+**v.) Integration with Social Media Platforms:**
 
 Integrate the sentiment analysis models with social media platforms' APIs for seamless data collection and analysis, enabling continuous monitoring and real-time insights.
 
@@ -273,7 +275,7 @@ Integrate the sentiment analysis models with social media platforms' APIs for se
 
 The app was deployed using Streamlit.
 
-**View this project [here.👈](https://sentimentflow-nlp-project.streamlit.app/)**
+**View this project [here.](https://sentimentflow-nlp-project.streamlit.app/)** 👈
 
 ## **Example Usage**
 
@@ -287,7 +289,7 @@ Install dependencies: bash `pip install -r requirements.txt`
 
 ## **Usage**
 
-To run the app engine: bash python app.py
+To run the app engine: bash `python app.py`
 
 ## **License**
 
