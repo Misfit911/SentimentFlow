@@ -261,6 +261,7 @@ Assess the scalability of the models for handling large-scale data in a producti
 Explore real-time processing capabilities to provide up-to-date sentiment analysis, which is crucial for timely decision-making and responding to emerging trends.
 
 
+
 **iv.) Continuous Model Monitoring:**
 
 Implement continuous monitoring of the deployed models to detect any performance degradation over time. Retrain the models if necessary with new data to maintain accuracy and relevance.
@@ -294,3 +295,5 @@ To run the app engine: bash `python app.py`
 ## **License**
 
 This project is licensed under the Creative Commons Zero v1.0 Universal - see the LICENSE file for details.
+
+Check out this blog for the project [link here](https://sentimentflow.blogspot.com/2024/09/public-sentiment-toward-apple-and.html)
